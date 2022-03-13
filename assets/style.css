@@ -30,6 +30,7 @@ a, i{
 
 /* HEADER */
 #header{
+    background-color: rgb(255, 246, 246);
     text-align: center;
     padding: 20px;
     border-bottom: 1px solid #ccc;
@@ -133,9 +134,10 @@ a, i{
 
  /* FOOTER */
  footer{
+    background-color: rgb(255, 246, 246);
      border-top: 1px solid #ccc;
      height: 250px;
-     padding: 20px;
+     padding: 20 20 20 0px;
  }
  footer i{
      
@@ -144,7 +146,7 @@ a, i{
  }
 
 #social-icons-container{
-    padding: 25px;
+    padding: 25 25 25 0;
 }
 #social-icons-container div{
     text-align: center;
