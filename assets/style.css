@@ -68,12 +68,14 @@ a, i{
 /* MAIN IMAGE */
 .main-image{
     height: 400px;   
-    background-image:url(01.png) ;
+    background-image:url(01.png);
     margin-bottom: 30px;
     position: relative;
     border-left:1px solid #ccc ;
     border-top:1px solid #ccc ;
     border-bottom:1px solid #ccc ;
+    border-right:1px solid #ccc ;
+    
 
 }
 .main-image-info{
@@ -126,6 +128,7 @@ a, i{
 .small-image-container{
     height: 250px;
     margin-bottom: 20px;
+    border: 1px solid #ccc ;
 }
 
 
