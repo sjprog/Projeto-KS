@@ -33,6 +33,8 @@ a, i{
     text-align: center;
     padding: 20px;
     border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    
 }
 #header p {
     margin-bottom: 0;
@@ -40,6 +42,7 @@ a, i{
 #logo-container{
     display: flex;
     justify-content: center;
+    
 }
 
 #logo{
@@ -63,8 +66,7 @@ a, i{
 /* NAVBAR */
 /* MAIN IMAGE */
 .main-image{
-    height: 400px;
-   
+    height: 400px;   
     background-image:url(01.png) ;
     margin-bottom: 30px;
     position: relative;
@@ -128,3 +130,40 @@ a, i{
 
 
 /* FOTOS */
+
+ /* FOOTER */
+ footer{
+     border-top: 1px solid #ccc;
+     height: 250px;
+     padding: 20px;
+ }
+ footer i{
+     font-size: 20px;
+     margin: 10px;
+ }
+
+#social-icons-container{
+    padding: 25px;
+}
+#social-icons-container div{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    margin: 20px;
+    padding-top: 30px;
+    
+}
+
+a:hover i{
+    color: #c1b696;
+    
+    
+}
+
+
+
+
+
+
+  /* FOOTER */
