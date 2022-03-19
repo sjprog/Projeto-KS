@@ -13,6 +13,7 @@ body {
 #form-container h2 {
   font-weight: 900;
   margin-bottom: 30px;
+  
 }
 
 #form-container a{
@@ -21,14 +22,42 @@ body {
 }
 
 #form-container a:hover{
-    color: rgb(159, 108, 206);
+    color: #9f6cce;
+    
 }
 #form-container form{
-    padding-bottom: 150px;
+    padding-bottom: 0;
 }
-#form-contianer .form-control{
+#form-container .form-control{
     border: none;
     border-bottom: 1px solid #ccc;
     border-radius: 0;
 
+}
+#form-container .form-control:focus {
+    box-shadow: none;
+}
+#form-container .form-floating label{
+    color: #ccc;
+}
+#form-container .form-floating > .form.control:focus~label {
+    color: rgb(0, 0, 0);
+
+} 
+#form-container input[type="submit"]{
+    background-color:#9f6cce ;
+    border-color: #9f6cce;
+}
+
+/* imagem */
+
+.row.aling-items-center{
+    align-content: center;
+    height: 100%;
+    padding: 50px 0;
+}
+#link-container{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
