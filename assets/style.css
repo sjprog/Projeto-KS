@@ -20,6 +20,8 @@ body {
   overflow-x: hidden;
   margin: 0;
 }
+
+
 a,
 i {
   transition: 0.5s;
