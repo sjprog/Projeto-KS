@@ -41,8 +41,7 @@ body {
   color: rgb(0, 0, 0);
 }
 #form-container input[type='submit'],
-#form-container input[type='checkbox']:checked
- {
+#form-container input[type='checkbox']:checked {
   background-color: #9f6cce;
   border-color: #9f6cce;
 }
@@ -56,7 +55,7 @@ body {
 .row.aling-items-center {
   align-content: center;
   height: 100%;
-  padding: 50px 0;
+  padding: 75px 0;
 }
 .col-md-6.order-md-1 {
   padding-top: 50px;
