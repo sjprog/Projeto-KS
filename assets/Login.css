@@ -10,78 +10,74 @@ body {
   padding: 25px;
 }
 
-@media(min-width:768px){
-    #form-container{
-        margin: 50px auto;
-        padding: 50px;
-    }
-}
-
 #form-container h2 {
   font-weight: 900;
   margin-bottom: 30px;
-  
 }
 
-#form-container a{
-    color: black;
-    transition: .5s;
+#form-container a {
+  color: black;
+  transition: 0.5s;
 }
 
-#form-container a:hover{
-    color: #9f6cce;
-    
+#form-container a:hover {
+  color: #9f6cce;
 }
-#form-container form{
-    padding-bottom: 0;
+#form-container form {
+  padding-bottom: 0;
 }
-#form-container .form-control{
-    border: none;
-    border-bottom: 1px solid #ccc;
-    border-radius: 0;
-
+#form-container .form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
 }
 #form-container .form-control:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
-#form-container .form-floating label{
-    color: #ccc;
+#form-container .form-floating label {
+  color: #ccc;
 }
-#form-container .form-floating > .form.control:focus~label {
-    color: rgb(0, 0, 0);
+#form-container .form-floating > .form.control:focus ~ label {
+  color: rgb(0, 0, 0);
+}
+#form-container input[type='submit'] {
+  background-color: #9f6cce;
+  border-color: #9f6cce;
+}
+.btn.btn-dark {
+  width: 100%;
+}
 
-} 
-#form-container input[type="submit"]{
-    background-color:#9f6cce ;
-    border-color: #9f6cce;
-}
-.btn.btn-dark{
-    width: 100%;
-}
-
-@media(min-width: 768px){
-    .btn.btn-dark{
-        width: auto;
-    }
-}
 /* imagem */
 
-.row.aling-items-center{
-    align-content: center;
-    height: 100%;
-    padding: 50px 0;
+.row.aling-items-center {
+  align-content: center;
+  height: 100%;
+  padding: 50px 0;
 }
-.col-md-6.order-md-1{
-    padding-top:50px ;
+.col-md-6.order-md-1 {
+  padding-top: 50px;
 }
 
-@media(min-width: 768px){
-    .col-md-6.order-md-1{
-    padding-top:0 ;
+#link-container {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
-}
-#link-container{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
+
+/* media */
+
+@media (min-width: 768px) {
+  .col-md-6.order-md-1 {
+    padding-top: 0;
+  }
+
+  .btn.btn-dark {
+    width: auto;
+  }
+
+  #form-container {
+    margin: 50px auto;
+    padding: 50px;
+  }
 }
