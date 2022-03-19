@@ -55,13 +55,30 @@ body {
     background-color:#9f6cce ;
     border-color: #9f6cce;
 }
-.btn.btn-dark
+.btn.btn-dark{
+    width: 100%;
+}
+
+@media(min-width: 768px){
+    .btn.btn-dark{
+        width: auto;
+    }
+}
 /* imagem */
 
 .row.aling-items-center{
     align-content: center;
     height: 100%;
     padding: 50px 0;
+}
+.col-md-6.order-md-1{
+    padding-top:50px ;
+}
+
+@media(min-width: 768px){
+    .col-md-6.order-md-1{
+    padding-top:0 ;
+}
 }
 #link-container{
     text-align: center;
