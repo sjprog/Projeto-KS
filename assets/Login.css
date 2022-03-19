@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(234, 239, 243);
+}
+
+#form-container{
+    background-color: #fff;
+    border-radius:22px ;
+    box-shadow:.5px 10px 15px rgba(0, 0, 0, .2) ;
+}
