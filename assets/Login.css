@@ -40,12 +40,15 @@ body {
 #form-container .form-floating > .form.control:focus ~ label {
   color: rgb(0, 0, 0);
 }
-#form-container input[type='submit'] {
+#form-container input[type='submit'],
+#form-container input[type='checkbox']:checked
+ {
   background-color: #9f6cce;
   border-color: #9f6cce;
 }
 .btn.btn-dark {
   width: 100%;
+  margin-top: 25px;
 }
 
 /* imagem */
